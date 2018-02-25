@@ -1,0 +1,78 @@
+.spacertop{
+  height:75px;
+}
+
+.chatwrapper{
+  margin: auto;
+  width: 70%;
+  height:600px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 10px;
+  background-color: lightgray;
+}
+
+.leftMenu{
+  height: 100%;
+}
+
+.onlineBanner{
+  margin-top: 10px;
+  margin-left: 20px;
+  width:90%;
+  height: 50px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: #FFE563;
+  text-align: center;
+}
+
+.bannertext{
+  padding-top: 10px;
+  text-align: center;
+}
+
+.messageSideTopSpacer{
+  margin:auto;
+  height:75px;
+  text-align: center;
+  horiz-align: center;
+}
+
+.messageWrapper{
+  background-color: #e0e0e0;
+  border-bottom-right-radius: 10px;
+  width: 88%;
+  height: 90%;
+}
+
+
+
+.messageBottomWrapper{
+  background-color: grey;
+  margin-top: -39px;
+  margin-left: -5px;
+  height:40px;
+  width:90%;
+  border-bottom-right-radius: 10px;
+}
+
+.messageInput{
+  width: 80%;
+}
+
+.messageInput{
+  margin:auto;
+  margin-left:18px;
+  height: 95%;
+  width:88%;
+   border: 0;
+}
+
+
+.sendButton{
+  background-color: #FFE563;
+  border-radius: 5px;
+  width:50px;
+  height:30px;
+}

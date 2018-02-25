@@ -1,7 +1,39 @@
-<h1>messages</h1>
-<ul>
-  <li *ngFor="let msgg of messageList"> {{msgg.mssg}} </li>
-</ul>
-<h4>write something!</h4>
-<textarea [(ngModel)]='newmessagetext' rows="4" cols="50"></textarea>
-<button (click)="sendNewMssg()">send message</button>
+
+<div class="spacertop">
+</div>
+<div class="chatwrapper">
+  <div class="container" style="height:100%;
+  margin-top: 0px;">
+    <div class="row" style="height:100%;
+  margin-top: 0px;">
+      <div class="col-md-4" style="height:100%;
+  padding-left: 0px;
+  padding-right:0px;
+  margin-top: 0px;
+  background-color: grey;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 40px;">
+        <div class="leftMenu">
+          <div class="onlineBanner">
+            <h3 class="bannertext">You're Connected</h3>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-md-8" style="padding-left:0px; height:95%;">
+        <div class="messageSideTopSpacer">
+          <p>Messagees Recieved</p>
+        </div>
+        <div class="messageWrapper">
+          <ul>
+            <li *ngFor="let msgg of messageList"> {{msgg.mssg}} </li>
+          </ul>
+        </div>
+        <div class="messageBottomWrapper">
+          <input class="messageInput" [(ngModel)]='newmessagetext' placeholder="I'm Feeling...">
+          <button class="sendButton" (click)="sendNewMssg()"><span class="glyphicon glyphicon-send"></span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
