@@ -1,0 +1,7 @@
+<h1>messages</h1>
+<ul>
+  <li *ngFor="let msgg of messageList"> {{msgg.mssg}} </li>
+</ul>
+<h4>write something!</h4>
+<textarea [(ngModel)]='newmessagetext' rows="4" cols="50"></textarea>
+<button (click)="sendNewMssg()">send message</button>

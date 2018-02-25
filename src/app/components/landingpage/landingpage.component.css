@@ -1,0 +1,78 @@
+.logoimg{
+  width: 20%;
+  height: 20%;
+  display: block;
+  margin: auto;
+}
+
+.spacetop{
+  height:100px
+}
+
+.spacebot{
+  height:200px;
+  background-color: lightgray;
+  transform: skewY(6deg);
+  transform-origin: bottom left;
+}
+
+table{
+  width:100%;
+}
+
+
+
+.center{
+  width:100%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.leftbutton{
+  width:50%;
+}
+
+.rightbutton{
+  width:50%;
+}
+
+.mainlandone{
+  margin: auto;
+  width:100%;
+  background-color:  lightgray;
+}
+
+.listenLogin{
+  background-color:  #37347B;
+  float: right;
+  width: 150px;
+  margin-right: 3px;
+  height: 50px;
+  opacity: .85;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.listenLogin:hover {
+  opacity:1;
+
+}
+
+.ventLogin{
+  background-color:  #FFE563;
+  float: left;
+  width: 150px;
+  margin-left:3px;
+  height: 50px;
+  opacity: .85;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.ventLogin:hover {
+  opacity: 1;
+}
